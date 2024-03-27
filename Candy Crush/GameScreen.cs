@@ -1,4 +1,11 @@
-﻿using System;
+﻿//Does not work
+//issue is beyond me
+//this was way to difficult for the time I had, unbeknownst to me
+//despite that, it's something
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
