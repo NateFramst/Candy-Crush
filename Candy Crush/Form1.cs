@@ -12,6 +12,8 @@ namespace Candy_Crush
 {
     public partial class Form1 : Form
     {
+
+        public static bool escDown;
         public Form1()
         {
             InitializeComponent();
