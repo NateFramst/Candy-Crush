@@ -9,6 +9,7 @@ namespace Candy_Crush
 {
     internal class Candy
     {
+        //variables
         public int type;
         public int location;
         public Boolean candyVisible;
@@ -20,10 +21,12 @@ namespace Candy_Crush
 
         public Candy(int _type, int _location, bool _candyVisible)
         {
+            //set varibales imported
             type = _type;
             location = _location;
             candyVisible = _candyVisible;
 
+            //check color
             if (type == 0)
             {
                 typeBrush = new SolidBrush(Color.Red);

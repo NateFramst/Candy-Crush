@@ -21,27 +21,5 @@ namespace Candy_Crush
         {
             Form1.ChangeScreen(this, new GameScreen());
         }
-
-        private void HomeScreen_KeyDown(object sender, KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.Escape:
-                    Form1.escDown = true;
-                    break;
-
-            }
-        }
-
-        private void HomeScreen_KeyUp(object sender, KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.Escape:
-                    Form1.escDown = false;
-                    break;
-
-            }
-        }
     }
 }

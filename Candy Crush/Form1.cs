@@ -20,6 +20,7 @@ namespace Candy_Crush
             ChangeScreen(this, new HomeScreen());
         }
 
+        //change sreens
         public static void ChangeScreen(object sender, UserControl next)
         {
             Form f;
